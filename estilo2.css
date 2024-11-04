@@ -1,0 +1,36 @@
+
+.principal {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px auto;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+.grid-item {
+    background-color: aquamarine;
+    border: 4px solid rgb(38, 97, 77);
+}
+.item3 {
+    color:black;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item4 {
+    color:black;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.item5 {
+    color:black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 8;
+}
+
+body{
+    background-color:aqua
+}
+

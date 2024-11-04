@@ -1,0 +1,25 @@
+        body {
+            background-color:rgb(225, 50, 50)
+        }
+        .contexto {
+            font-family: Arial, sans-serif;
+            color: #aaaaaa;
+            background-color: #2c2c2c;
+            width: 200px;
+            height: 100px;
+            padding:10px;
+            border:4px;
+            margin: 20px;
+        }
+        .lugar {
+            font-family: Arial, sans-serif;
+            color: #2fd73d;
+            background-color: #141313;
+            width: 200px;
+            height: 100px;
+            padding:10px;
+            border:4px;
+            margin: 20px;
+        }
+
+        
